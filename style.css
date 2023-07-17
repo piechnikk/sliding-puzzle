@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game{
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: min-content; 
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.overlayOkno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #123;
+    border: 2px solid darkred;
+    border-radius: 10px;
+}
+
+.overlayItems{
+    font-family: DejaVu Sans Mono, monospace; color: white; font-size: 20px;
+    margin: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exit{
+    font-family: DejaVu Sans Mono, monospace; color: white; font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 15px;
+}
+#tekst{
+    font-family: DejaVu Sans Mono, monospace; color: white; font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    font-family: DejaVu Sans Mono, monospace; color: white; font-size: 20px;
+    margin: 0 20px 30px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#form > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topScores{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-family: DejaVu Sans Mono, monospace; color: white; font-size: 20px;
+    margin: 20px;
+    color: white;
+    background-color: #123;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.row{
+    font-family: DejaVu Sans Mono, monospace; color: white; 
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row >*{
+    margin: 0 30px 20px 30px;
+}
+
+#slider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+#slidder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    font-family: DejaVu Sans Mono, monospace; color: white; 
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#pomoc{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: DejaVu Sans Mono, monospace; color: white; 
+    font-size: 20px;
+    color: white;
+}
