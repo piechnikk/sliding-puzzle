@@ -26,7 +26,7 @@ git clone https://github.com/piechnikk/sliding-puzzle.git
 ```
 2. Navigate to the project directory: 
 ```
-cd battleships
+cd sliding-puzzle
 ```
 
 ## Usage
